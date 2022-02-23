@@ -1,0 +1,212 @@
+[
+  {
+    "x": 2009.0,
+    "value": 237000000.0,
+    "size": 760505847.0,
+    "title": "Avatar",
+    "genres": "Sci-Fi/Fantasy"
+  },
+  {
+    "x": 1997.0,
+    "value": 200000000.0,
+    "size": 658672302.0,
+    "title": "Titanic",
+    "genres": "Other"
+  },
+  {
+    "title": "Jurassic World",
+    "x": 2015.0,
+    "size": 652177271.0,
+    "value": 150000000.0,
+    "genres": "Sci-Fi/Fantasy"
+  },
+  {
+    "title": "The Avengers",
+    "x": 2012.0,
+    "size": 623279547.0,
+    "value": 220000000.0,
+    "genres": "Sci-Fi/Fantasy"
+  },
+  {
+    "title": "The Dark Knight",
+    "x": 2008.0,
+    "size": 533316061.0,
+    "value": 185000000.0,
+    "genres": "Sci-Fi/Fantasy"
+  },
+  {
+    "title": "Star Wars: Episode I - The Phantom Menace",
+    "x": 1999.0,
+    "size": 474544677.0,
+    "value": 115000000.0,
+    "genres": "Sci-Fi/Fantasy"
+  },
+  {
+    "title": "Star Wars: Episode IV - A New Hope",
+    "x": 1977.0,
+    "size": 460935665.0,
+    "value": 11000000.0,
+    "genres": "Sci-Fi/Fantasy"
+  },
+  {
+    "title": "Avengers: Age of Ultron",
+    "x": 2015.0,
+    "size": 458991599.0,
+    "value": 250000000.0,
+    "genres": "Sci-Fi/Fantasy"
+  },
+  {
+    "title": "The Dark Knight Rises",
+    "x": 2012.0,
+    "size": 448130642.0,
+    "value": 250000000.0,
+    "genres": "Sci-Fi/Fantasy"
+  },
+  {
+    "title": "Shrek 2",
+    "x": 2004.0,
+    "size": 436471036.0,
+    "value": 150000000.0,
+    "genres": "Animation"
+  },
+  {
+    "title": "E.T. the Extra-Terrestrial",
+    "x": 1982.0,
+    "size": 434949459.0,
+    "value": 10500000.0,
+    "genres": "Sci-Fi/Fantasy"
+  },
+  {
+    "title": "The Hunger Games: Catching Fire",
+    "x": 2013.0,
+    "size": 424645577.0,
+    "value": 130000000.0,
+    "genres": "Sci-Fi/Fantasy"
+  },
+  {
+    "title": "Pirates of the Caribbean: Dead Man's Chest",
+    "x": 2006.0,
+    "size": 423032628.0,
+    "value": 225000000.0,
+    "genres": "Sci-Fi/Fantasy"
+  },
+  {
+    "title": "The Lion King",
+    "x": 1994.0,
+    "size": 422783777.0,
+    "value": 45000000.0,
+    "genres": "Animation"
+  },
+  {
+    "title": "Toy Story 3",
+    "x": 2010.0,
+    "size": 414984497.0,
+    "value": 200000000.0,
+    "genres": "Animation"
+  },
+  {
+    "title": "Iron Man 3",
+    "x": 2013.0,
+    "size": 408992272.0,
+    "value": 200000000.0,
+    "genres": "Sci-Fi/Fantasy"
+  },
+  {
+    "title": "The Hunger Games",
+    "x": 2012.0,
+    "size": 407999255.0,
+    "value": 78000000.0,
+    "genres": "Sci-Fi/Fantasy"
+  },
+  {
+    "title": "Captain America: Civil War",
+    "x": 2016.0,
+    "size": 407197282.0,
+    "value": 250000000.0,
+    "genres": "Sci-Fi/Fantasy"
+  },
+  {
+    "title": "Spider-Man",
+    "x": 2002.0,
+    "size": 403706375.0,
+    "value": 139000000.0,
+    "genres": "Sci-Fi/Fantasy"
+  },
+  {
+    "title": "Transformers: Revenge of the Fallen",
+    "x": 2009.0,
+    "size": 402076689.0,
+    "value": 200000000.0,
+    "genres": "Sci-Fi/Fantasy"
+  },
+  {
+    "title": "Frozen",
+    "x": 2013.0,
+    "size": 400736600.0,
+    "value": 150000000.0,
+    "genres": "Animation"
+  },
+  {
+    "title": "Finding Nemo",
+    "x": 2003.0,
+    "size": 380838870.0,
+    "value": 94000000.0,
+    "genres": "Animation"
+  },
+  {
+    "title": "Star Wars: Episode III - Revenge of the Sith",
+    "x": 2005.0,
+    "size": 380262555.0,
+    "value": 113000000.0,
+    "genres": "Sci-Fi/Fantasy"
+  },
+  {
+    "title": "The Lord of the Rings: The Return of the King",
+    "x": 2003.0,
+    "size": 377019252.0,
+    "value": 94000000.0,
+    "genres": "Sci-Fi/Fantasy"
+  },
+  {
+    "title": "Spider-Man 2",
+    "x": 2004.0,
+    "size": 373377893.0,
+    "value": 200000000.0,
+    "genres": "Sci-Fi/Fantasy"
+  },
+  {
+    "title": "Despicable Me 2",
+    "x": 2013.0,
+    "size": 368049635.0,
+    "value": 76000000.0,
+    "genres": "Animation"
+  },
+  {
+    "title": "Deadpool",
+    "x": 2016.0,
+    "size": 363024263.0,
+    "value": 58000000.0,
+    "genres": "Sci-Fi/Fantasy"
+  },
+  {
+    "title": "The Jungle Book",
+    "x": 2016.0,
+    "size": 362645141.0,
+    "value": 175000000.0,
+    "genres": "Animation"
+  },
+  {
+    "title": "Jurassic Park",
+    "x": 1993.0,
+    "size": 356784000.0,
+    "value": 63000000.0,
+    "genres": "Sci-Fi/Fantasy"
+  },
+  {
+    "title": "Inside Out",
+    "x": 2015.0,
+    "size": 356454367.0,
+    "value": 175000000.0,
+    "genres": "Animation"
+  }
+]

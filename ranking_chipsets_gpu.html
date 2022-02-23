@@ -1,0 +1,327 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title> Burnout Benchmark </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,700italic,400italic" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <script src="js/modernizr.js"></script>
+    <meta name="viewport" content="width=device-width">
+    
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118781498-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-118781498-1');
+	</script>
+	
+	<script type = "text/javascript" src = "https://www.gstatic.com/charts/loader.js">
+      </script>
+      <script type = "text/javascript">
+         google.charts.load('current', {packages: ['corechart']});     
+      </script>
+    
+</head>
+
+<body data-spy="scroll" data-offset="0" data-target="#navbar-main" style="background-image: none;">
+
+<nav>
+	<ul class="left_bar">
+		<a href="index.html"> <img src="assets/img/splash.png"> </a>
+	</ul>
+	<ul class="middle_bar">
+	
+		<a href="index.html"> <li class="glow"> BURNOUT </li></a>
+		<a href="ranking_compute.html"> <li class="glow"> COMPUTING </li></a>
+		<a href="ranking_throttling.html" style="margin-left: 0.8vw; margin-right: 0.8vw; "> <li class="glow"> THROTTLING </li></a>
+		<a href="ranking_power_efficiency.html"> <li class="glow"> POWER EFFICIENCY </li></a>
+		<a href="ranking_chipsets.html"> <li class="glow"> CHIPSETS </li></a>
+
+	</ul>
+	<ul class="right_bar">
+		<a href="download.html"> <img style="width: 7.5vw; margin-top: 1.07vw; position: fixed; margin-left: -9.5vw;" src="assets/img/download.png"> </a>
+		<a href="about.html" style="font-size: 1.0vw; margin-right: 0.8vw;"> <li class="glow"> ABOUT </li></a>
+	</ul>
+	
+</nav>
+
+<div id="nav_mobile">
+	<ul class="middle_bar">
+		<a href="index.html"> <li class="glow"> BURNOUT </li></a>
+		<a href="ranking_compute.html"> <li class="glow"> COMPUTING </li></a>
+		<a href="ranking_throttling.html" style="margin-left: 0.8vw; margin-right: 0.8vw; "> <li class="glow"> THROTTLING </li></a>
+		<a href="ranking_power_efficiency.html"> <li class="glow"> POWER EFFICIENCY </li></a>
+		<a href="ranking_chipsets.html"> <li class="glow"> CHIPSETS </li></a>
+		<a href="download.html"> <img style="width: 11.2vw; padding-left: 2.6vw; vertical-align: middle;" src="assets/img/download.png"> </a>
+	</ul>
+
+</div>
+
+<div id="results_panel">
+<a href="ranking_chipsets.html" style="text-decoration: none; color: black;">Overall</a> &nbsp;|&nbsp; 
+<a href="ranking_chipsets_cpu.html" style="text-decoration: none; color: black;">CPU</a> &nbsp;|&nbsp; 
+<a href="ranking_chipsets_gpu.html" style="text-decoration: none; color: black;">GPU</a> &nbsp;|&nbsp; 
+<a href="ranking_chipsets_npu.html" style="text-decoration: none; color: black;">NPU</a> 
+<!--a href="ranking_chipsets_raw.html" style="text-decoration: none; color: black;">RAW Results </a-->
+</div>
+
+<div id="soc_results">
+      </div>
+      <script language = "JavaScript">
+         function drawChart() {
+            // Define the chart to be drawn.
+            var data = new google.visualization.DataTable();
+            data.addColumn('string', 'Id');
+            data.addColumn('number', 'Computational Performance');
+            data.addColumn('number', 'Power Efficiency Score');
+            data.addColumn('number', 'Overall Score');
+            data.addColumn('number', 'Overall Score');
+            data.addRows([
+               
+["MediaTek Dimensity 9000",19.4,4.8,93.1,93.1],
+["Snapdragon 8 Gen 1",22.8,2.9,66.1,66.1],
+["HiSilicon Kirin 9000",23.6,3.3,77.9,77.9],
+["HiSilicon Kirin 990 5G",12.4,4,49.6,49.6],
+["Snapdragon 888",15.8,2.5,39.5,39.5],
+["Google Tensor",18.6,3.3,61.4,61.4],
+["Snapdragon 865",13.1,3.5,45.9,45.9],
+["Snapdragon 870",14.9,3.4,50.7,50.7],
+["MediaTek Dimensity 1000+",12.7,4,50.8,50.8],
+["MediaTek Dimensity 1200-AI",15.2,3.3,50.2,50.2],
+["Snapdragon 778G",8.8,4.1,36.1,36.1],
+["MediaTek Dimensity 800",5.7,4,22.8,22.8],
+["Snapdragon 860",11.8,3,35.4,35.4],
+["Snapdragon 855",10.6,3.2,33.9,33.9],
+["Exynos 2100",16.1,3.5,56.4,56.4],
+["Exynos 990",14.9,3.6,53.6,53.6],
+["HiSilicon Kirin 810",5.3,2.9,15.4,15.4],
+["Snapdragon 765G",5.3,2.9,15.4,15.4],
+["HiSilicon Kirin 980",9.6,2.6,25,25],
+["MediaTek Dimensity 700",3.8,3.8,14.4,14.4],
+["Snapdragon 845",7.6,2.3,17.5,17.5],
+["Snapdragon 720G",4.4,2.2,9.7,9.7],
+["Exynos 9825 Octa",11.4,3,34.2,34.2],
+["Snapdragon 732G",4.6,2.6,12,12],
+["Exynos 9820 Octa",10.8,3,32.4,32.4],
+["MediaTek Helio G95",4.8,1.9,9.1,9.1],
+["MediaTek Helio G90T",4.6,2.1,9.7,9.7],
+["Snapdragon 710",3.3,2.7,8.9,8.9],
+["Snapdragon 712",3.8,2.3,8.7,8.7],
+["MediaTek Helio P90",3.1,1.3,4,4],
+["Snapdragon 835",5.9,1.9,11.2,11.2],
+["Snapdragon 675",2,1.5,3,3],
+["HiSilicon Kirin 970",4.4,1.8,7.9,7.9],
+["Mediatek Helio G88",2.3,1.7,3.9,3.9],
+["MediaTek Helio G85",2.3,1.8,4.1,4.1],
+["MediaTek Helio P60",2.5,1.5,3.8,3.8],
+["Exynos 9611",3.2,1.2,3.8,3.8],
+["Snapdragon 665",1.6,1.2,1.9,1.9],
+["Snapdragon 662",1.6,1.1,1.8,1.8],
+["Snapdragon 460",1.1,1.2,1.3,1.3],
+["HiSilicon Kirin 710",2.1,1.3,2.7,2.7],
+["MediaTek Helio G35",1,1.5,1.5,1.5],
+["MediaTek Helio P22",0.91,1.5,1.4,1.4],
+["Snapdragon 630",1.5,1.1,1.7,1.7],
+["Snapdragon 801",2,1,2,2],
+["Exynos 7420 Octa",1.5,0.53,0.8,0.8],
+["Snapdragon 632",0.94,1,0.9,0.9],
+["MediaTek Helio A22",0.68,0.97,0.7,0.7],
+["HiSilicon Kirin 659",0.48,0.77,0.4,0.4],
+["Snapdragon S4 Pro",0.58,0.47,0.3,0.3],
+
+               	
+            ]);
+               
+            // Set chart options
+            var options = {'title': 'Performance vs. Power Efficiency',
+            				hAxis: {title: 'Computational Performance',
+            						textStyle: {
+								        fontSize: 12,
+								        fontName: 'Arial',
+								        color: 'black',
+								        auraColor: 'none',
+								        bold: false,
+								        italic: false
+						   			},
+						   			axisTitlesPosition: 'none',
+						   			maxValue: 25,
+						   		},
+    						vAxis: {
+	    							title: 'Power Efficiency',
+	    							textStyle: {
+								        fontSize: 12,
+								        fontName: 'Arial',
+								        color: 'black',
+								        auraColor: 'none',
+								        bold: false,
+								        italic: false
+						   			},
+						   			maxValue: 5.2
+						   	},
+							bubble: {
+						      textStyle: {
+						        fontSize: 10,
+						        fontName: 'Arial',
+						        color: 'black',
+						        auraColor: 'none',
+						        bold: false,
+						        italic: false
+						   		}
+    						},
+    						chartArea: {width: '100%', left: '6%', right: '6%', height: '80%'},
+    						axisTitlesPosition: 'out'
+			};
+
+            // Instantiate and draw the chart.
+            var chart = new google.visualization.BubbleChart(document.getElementById('soc_results'));
+            chart.draw(data, options);
+         }
+         google.charts.setOnLoadCallback(drawChart);
+      </script>
+
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/jquery.mobile.custom.min.js"></script>
+<script src="js/main.js"></script>
+<script>
+	function open_demo() {
+		document.getElementById('demos').style.display="block";
+		document.getElementById('demo-button').style.display="none";
+	}
+	function close_demo() {
+		document.getElementById('demos').style.display="none";
+		document.getElementById('demo-button').style.display="block";
+	}
+</script>
+
+<script>
+function sortTable(n) {
+  var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+  table = document.getElementById("scoreTable");
+  switching = true;
+  dir = "asc";
+  while (switching) {
+    switching = false;
+    rows = table.getElementsByTagName("TR");
+    for (i = 2; i < (rows.length - 1); i++) {
+      shouldSwitch = false;
+      x = rows[i].getElementsByTagName("TD")[n];
+      y = rows[i + 1].getElementsByTagName("TD")[n];
+      if (dir == "asc") {
+        if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+          shouldSwitch= true;
+          break;
+        }
+      } else if (dir == "desc") {
+        if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+          shouldSwitch= true;
+          break;
+        }
+      }
+    }
+    if (shouldSwitch) {
+      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+      switching = true;
+      switchcount ++;
+    } else {
+      if (switchcount == 0 && dir == "asc") {
+        dir = "desc";
+        switching = true;
+      }
+    }
+  }
+}
+</script>
+
+<script>
+function sortTableFloat(n) {
+  var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+  table = document.getElementById("scoreTable");
+  switching = true;
+  dir = "asc";
+  while (switching) {
+    switching = false;
+    rows = table.getElementsByTagName("TR");
+    for (i = 2; i < (rows.length - 1); i++) {
+      shouldSwitch = false;
+      x = rows[i].getElementsByTagName("TD")[n];
+      y = rows[i + 1].getElementsByTagName("TD")[n];
+      if (dir == "asc") {
+        if (parseFloat(x.innerHTML.substring(0, x.innerHTML.length - 2)) > parseFloat(y.innerHTML.substring(0, y.innerHTML.length - 2))) {
+          shouldSwitch= true;
+          break;
+        }
+      } else if (dir == "desc") {
+        if (parseFloat(x.innerHTML.substring(0, x.innerHTML.length - 2)) < parseFloat(y.innerHTML.substring(0, y.innerHTML.length - 2))) {
+          shouldSwitch= true;
+          break;
+        }
+      }
+    }
+    if (shouldSwitch) {
+      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+      switching = true;
+      switchcount ++;
+    } else {
+      if (switchcount == 0 && dir == "asc") {
+        dir = "desc";
+        switching = true;
+      }
+    }
+  }
+}
+</script>
+
+<script>
+function sortTableInt(n) {
+  var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+  table = document.getElementById("scoreTable");
+  switching = true;
+  dir = "asc";
+  while (switching) {
+    switching = false;
+    rows = table.getElementsByTagName("TR");
+    for (i = 2; i < (rows.length - 1); i++) {
+      shouldSwitch = false;
+      x = rows[i].getElementsByTagName("TD")[n];
+      y = rows[i + 1].getElementsByTagName("TD")[n];
+      
+      score_x = parseInt(x.innerHTML);
+      score_y = parseInt(y.innerHTML);
+      
+      if (dir == "asc") {
+      	if (score_x == 0) {
+      		score_x = 1000000;
+      	}
+        if (score_x > score_y && score_y != 0) {
+          shouldSwitch= true;
+          break;
+        }
+      } else if (dir == "desc") {
+        if (score_x < score_y) {
+          shouldSwitch= true;
+          break;
+        }
+      }
+    }
+    if (shouldSwitch) {
+      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+      switching = true;
+      switchcount ++;
+    } else {
+      if (switchcount == 0 && dir == "asc") {
+        dir = "desc";
+        switching = true;
+      }
+    }
+  }
+}
+</script>
+
+</body>
+
+</html>
