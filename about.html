@@ -22,7 +22,7 @@
     
 </head>
 
-<body data-spy="scroll" data-offset="0" data-target="#navbar-main" style="background-image: url(assets/img/2L_texture_letters.jpg);">
+<body data-spy="scroll" data-offset="0" data-target="#navbar-main" style="background-color: black;">
 
 <nav>
 	<ul class="left_bar">
@@ -54,24 +54,35 @@
 	</ul>
 </div>
 
-<div id="about-info">
-	
-	<div class="version">Current Version: 2.0.2
-	</div>
-	<div class="designed">
-		Designed and Developed by <a target="blank" style="text-decoration: none;" href="https://www.linkedin.com/in/andrey-ignatov/"><span style="color: #ea1d6f;">Andrey Ignatov</span></a>
-	</div>
-	<div class="eth">
-		<a target="blank" style="text-decoration: none; color: #178ed2;" href="http://www.vision.ee.ethz.ch/"> Computer Vision Lab, ETH Zurich, Switzerland</a>
-	</div>
-	<div class="copyright">
-		Copyright © 2022 by <span style="color: #178ed2;">A.I.</span> All rights reserved
-	</div>
-	<div class="email">
-		Contact: &nbsp;<span style="color: #ea1d6f;">andrey@vision.ee.ethz.ch</span>
-	</div>
+<div id="tests">
 
-<div>
+	<p class="title">Burnout Benchmark Tests</p>
+
+
+	<p class="definition">The majority of mobile devices are now demonstrating the performance significantly surpassing the needs defined by our daily use cases such as web browsing, video streaming, photo and video capturing, casual games, etc. The major difference in the user experience thus comes from the overall <span style="color: rgba(150, 200, 255, 0.9)">SoC power efficiency</span> and its <span style="color: rgba(150, 200, 255, 0.9)">performance / throttling behavior</span> under heavy workloads such as demanding 3D games, tasks requiring simultaneous utilization of many SoC components and other computationally extensive apps. The Burnout benchmark is designed to measure these performance aspects directly, providing the answers to the following questions:</p></br>
+
+	<p class="definition" style="font-weight: bold; color: rgba(150, 200, 255, 0.9);">1) What is the power efficiency and power consumption of each major SoC component (CPU / GPU / NPU),</p>
+	<p class="definition" style="font-weight: bold; color: rgba(150, 200, 255, 0.9);">2) How stable is the performance over time when CPU, GPU and NPU are fully loaded,</p>
+	<p class="definition" style="font-weight: bold; color: rgba(150, 200, 255, 0.9);">3) What is the maximum total system throughput when different SoC components are utilized simultaneously,</p>
+	<p class="definition" style="font-weight: bold; color: rgba(150, 200, 255, 0.9);">4) How serve is the thermal throttling when several SoC components (CPU+GPU+NPU) are loaded simultaneously.</p></br>
+
+	<p class="definition">To answer these questions, the Burnout Benchmark loads different SoC components with the following heavy workloads to analyze their power consumption, thermal throttling and maximum performance:</p></br>
+
+	<p class="definition" style="font-weight: bold; color: rgba(150, 200, 255, 0.9);">&#9679; GPU:&nbsp; Parallel vision-based computations using OpenCL,</p>
+	<p class="definition" style="font-weight: bold; color: rgba(150, 200, 255, 0.9);">&#9679; CPU:&nbsp; Multi-threaded computations largely involving Arm Neon instructions,</p>
+	<p class="definition" style="font-weight: bold; color: rgba(150, 200, 255, 0.9);">&#9679; NPU:&nbsp; AI models with typical machine learning ops.</p></br>
+
+	<p class="definition">For each subtest, the corresponding jobs are running continuously on the device and performing these computations. The reported "FPS" values stand for the number of times the job was completed during one second. The corresponding results obtained for numerous mobile devices are presented on this website.</p>
+	<p class="about">About Burnout Benchmark</p>
+
+	<p class="version">Current Version: 2.0.2</p>
+	<p class="designed">Designed and Developed by <a target="blank" style="text-decoration: none;" href="https://www.linkedin.com/in/andrey-ignatov/"><span style="color: #ea1d6f;">Andrey Ignatov <img src="assets/img/goto_red.png"></span></a></p>
+	<p class="eth"><a target="blank" style="text-decoration: none; color: rgba(150, 200, 255, 0.9);" href="http://www.vision.ee.ethz.ch/"> Computer Vision Lab, ETH Zurich, Switzerland</a></p>
+	<p class="copyright">Copyright © 2022 by <span style="color: rgba(150, 200, 255, 0.9);">A.I.</span> All rights reserved</p>
+	<p class="email">Contact: &nbsp;<span style="color: #ea1d6f;">andrey@vision.ee.ethz.ch</span></p>
+
+
+</div>
 
 <script src="js/jquery-2.1.1.js"></script>
 <script src="js/jquery.mobile.custom.min.js"></script>
