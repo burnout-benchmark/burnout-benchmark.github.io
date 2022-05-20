@@ -2000,6 +2000,27 @@ hr {
 
 }
 
+/* ----------------------------------------------------------- ABOUT STYLE ----------------------------------------------------------- */
+
+
+#about {
+	position: relative;
+	margin-top: 3.04vw;
+	width: 100%;
+	background-color: rgba(245, 187, 164, 0.3);
+	text-align: center;
+	overflow: hidden;
+	font-size: 0.94vw;
+	color: #ecf0f1;
+	padding-top: 1.5vw;
+	padding-bottom: 1.7vw;
+	overflow: hidden;
+}
+
+#about p {
+	line-height: 200%;
+}
+
 #faq .answer {
 	margin-top: 2vw;
 	margin-left: 8.5vw;
